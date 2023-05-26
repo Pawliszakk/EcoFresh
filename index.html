@@ -33,7 +33,7 @@
     <ul class="nav__list">
         <li class="nav__list-item"><a href="#about-us" class="nav__list-link">O nas</a> </li>
         <li class="nav__list-item"><a href="#offer" class="nav__list-link">Oferta</a> </li>
-        <li class="nav__list-item"><a href="#transportation" class="nav__list-link">Transport</a> </li>
+        <li class="nav__list-item"><a href="#show" class="nav__list-link">Jak pracujemy?</a> </li>
         <li class="nav__list-item"><a href="#contact" class="nav__list-link">Kontakt</a> </li>
     </ul>
 
@@ -50,10 +50,9 @@
         <h2 class="section-title">O nas</h2>
         <div class="underline"></div>
 
-        <p class="about-us__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque soluta corporis earum
-            veniam dolorum. Consequuntur veniam atque nobis, cum doloribus quia quam fugit repellat minima, ab inventore
-            odit expedita dolorum blanditiis magnam, eligendi reprehenderit molestias dicta quaerat iusto. Minus,
-            repudiandae.</p>
+        <p class="about-us__p">Hurtownia warzyw i owoców to profesjonalne miejsce, gdzie można znaleźć szeroki wybór
+            świeżych i wysokiej jakości produktów spożywczych. Nasza hurtownia specjalizuje się w dostarczaniu świeżych
+            warzyw i owoców o doskonałej jakości.</p>
         <div class="about-us__container">
 
             <div class="about-us__item">
@@ -64,7 +63,7 @@
             </div>
 
             <div class="about-us__item">
-                <div class="about-us__item-circle">
+                <div class="about-us__item-circle about-us__item-circle--two">
                     <i class="fa-solid fa-wallet"></i>
                 </div>
                 <p class="about-us__item-description">Konkurencyjne ceny</p>
@@ -78,27 +77,29 @@
             </div>
 
             <div class="about-us__item">
-                <div class="about-us__item-circle">
+                <div class="about-us__item-circle about-us__item-circle--two">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </div>
                 <p class="about-us__item-description">Szeroka oferta produktów</p>
             </div>
         </div>
-
+        <i class="fa-solid fa-carrot about-us__decoration about-us__decoration-carrot"></i>
+        <i class="fa-solid fa-lemon about-us__decoration about-us__decoration-lemon"></i>
+        
     </section>
 
     <section class="decoration">
         <p class="decoration__text">Możesz nam zaufać</p>
     </section>
 
-    <section class="offer section-padding">
+    <section class="offer section-padding" id="offer">
         <h2 class="section-title">Oferta</h2>
         <div class="underline"></div>
 
-        <p class="offer__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim architecto ex expedita iste
-            labore earum officiis cum eveniet dolor libero, eius ipsam itaque odio. Magni asperiores recusandae
-            consectetur error placeat.</p>
-            
+        <p class="offer__p">Nasza hurtownia warzyw i owoców oferuje szeroki wybór świeżych i wysokiej jakości produktów
+            spożywczych. Dostarczamy świeże warzywa i owoce, które są starannie wyselekcjonowane, aby zapewnić naszym
+            klientom najlepszą jakość i smak.</p>
+
         <div class="offer__products">
 
             <div class="offer__product">
@@ -219,6 +220,118 @@
             prosimy przejść do sekcji <a href="#contact">kontakt</a></p>
     </section>
 
+    <section class="show section-padding" id="show">
+        <h2 class="section-title">Jak pracujemy?</h2>
+        <div class="underline"></div>
+
+        <div class="show__container">
+
+            <div class="show__block">
+                <div class="show__block-image">
+                    <img src="./dist/img/quality.jpg" alt="Owoce podane na drewnianej podstawce">
+                </div>
+                <h3 class="show__block-h3">Jakość usług <i class="fa-solid fa-people-group"></i></h3>
+                <p class="show__block-text">Hurtownia warzyw i owoców Eco Fresh zapewnia niezwykle wysoką
+                    jakość swoich produktów.
+                    Ściśle przestrzegamy standardów higieny i bezpieczeństwa żywności. Każdy zakupiony przez was produkt
+                    jest świeży, soczysty i pełen naturalnego
+                    smaku.
+
+                    Nasze warzywa są zawsze pełne składników odżywczych, o intensywnych kolorach i idealnej dojrzałości.
+                </p>
+            </div>
+
+
+            <div class="show__block">
+                <div class="show__block-image">
+                    <img src="./dist/img/client.jpg" alt="Ludzie podający sobie rękę na spotkaniu">
+                </div>
+                <h3 class="show__block-h3">Relacja z klientami <i class="fa-solid fa-people-group"></i></h3>
+                <p class="show__block-text">Kluczowym elementem sukcesu każdej hurtowni warzyw i owoców jest utrzymanie
+                    dobrej relacji z klientem.
+                    Hurtownia powinna zapewniać klientom wyjątkowe doświadczenie zakupowe, które obejmuje zarówno wysoką
+                    jakość produktów, jak i doskonałą obsługę.
+                    Nasza firma oferuje przyjazne i profesjonalne podejście do obsługi klienta co jest fundamentem do
+                    budowania długotrwałych i owocnych relacji biznesowych.
+
+                </p>
+            </div>
+
+            <div class="show__block">
+                <div class="show__block-image">
+                    <img src="./dist/img/transport.jpg" alt="Kierowca prowadzący samochód">
+                </div>
+                <h3 class="show__block-h3">Szybkie dostawy <i class="fa-solid fa-truck-fast"></i></h3>
+                <p class="show__block-text">Hurtownia Eco Fresh posiada dobrze zorganizowany system logistyczny, który
+                    umożliwia skuteczne planowanie i realizację dostaw. Zamówione produkty są szybko pakowane i
+                    przygotowywane do wysyłki. Jako firma dbamy również o odpowiednie opakowania i warunki
+                    przechowywania podczas transportu, aby produkty utrzymały świeżość i wysoką jakość.
+                </p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="contact section-padding" id="contact">
+        <h2 class="section-title">Kontakt</h2>
+        <div class="underline"></div>
+
+        <div class="contact__container">
+            <div class="contact__map-container">
+                <iframe class="contact__map-map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2529.806506736247!2d23.369819875875237!3d50.649284582406345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47235fa1a7dd295d%3A0x77a70668ddf08043!2sEco%20Fresh!5e0!3m2!1spl!2spl!4v1685116741753!5m2!1spl!2spl"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact__info">
+
+                <div class="contact__item">
+                    <div class="contact__icon">
+                        <div class="contact__icon-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <p class="contact__icon-text">Adres:</p>
+                    </div>
+                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> Osiedlowa 8, 22-437
+                            Łabunie</strong></p>
+                </div>
+
+                <div class="contact__item">
+                    <div class="contact__icon">
+                        <div class="contact__icon-icon"><i class="fa-regular fa-clock"></i></div>
+                        <p class="contact__icon-text">Godziny otwarcia:</p>
+                    </div>
+                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> Pon-Pt:
+                            5:00-16:00</strong></p>
+                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> Sob: 5:00-11:00</strong>
+                    </p>
+                </div>
+
+                <div class="contact__item">
+                    <div class="contact__icon">
+                        <div class="contact__icon-icon"><i class="fa-solid fa-phone"></i></div>
+                        <p class="contact__icon-text">Telefon:</p>
+                    </div>
+                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> 84 651 49 80</strong></p>
+                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> 571 226 512</strong>
+                    </p>
+                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> 502 544 044</strong>
+                    </p>
+                </div>
+
+                <div class="contact__item">
+                    <div class="contact__icon">
+                        <div class="contact__icon-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <p class="contact__icon-text">Adres e-mail:</p>
+                    </div>
+                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong>
+                            ecofreshspj@gmail.com</strong></p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
 
