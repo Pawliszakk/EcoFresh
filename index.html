@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="./dist/img/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/30c3cc039e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./dist/css/main.min.css">
@@ -49,297 +50,314 @@
         <a class="header__link heartbeat" href="#about-us"><i class="fa-solid fa-circle-chevron-down"></i></a>
     </header>
 
-    <section class="about-us section-padding" id="about-us">
-        <h2 class="section-title">O nas</h2>
-        <div class="underline"></div>
+    <div data-aos="fade-up" data-aos-offset="200">
+        <section class="about-us section-padding" id="about-us">
+            <h2 class="section-title">O nas</h2>
+            <div class="underline"></div>
 
-        <p class="about-us__p">Hurtownia warzyw i owoców to profesjonalne miejsce, gdzie można znaleźć szeroki wybór
-            świeżych i wysokiej jakości produktów spożywczych. Nasza hurtownia specjalizuje się w dostarczaniu świeżych
-            warzyw i owoców o doskonałej jakości.</p>
-        <div class="about-us__container">
+            <p class="about-us__p">Hurtownia warzyw i owoców to profesjonalne miejsce, gdzie można znaleźć szeroki wybór
+                świeżych i wysokiej jakości produktów spożywczych. Nasza hurtownia specjalizuje się w dostarczaniu
+                świeżych
+                warzyw i owoców o doskonałej jakości.</p>
+            <div class="about-us__container">
 
-            <a class="about-us__link" href="#offer">
-                <div class="about-us__item">
-                    <div class="about-us__item-circle">
-                        <i class="fa-solid fa-carrot"></i>
+                <a class="about-us__link" href="#offer">
+                    <div class="about-us__item">
+                        <div class="about-us__item-circle">
+                            <i class="fa-solid fa-carrot"></i>
+                        </div>
+                        <p class="about-us__item-description">Świeży i smaczny towar</p>
                     </div>
-                    <p class="about-us__item-description">Świeży i smaczny towar</p>
-                </div>
+                </a>
+
+                <a class="about-us__link" href="#offer">
+                    <div class="about-us__item">
+                        <div class="about-us__item-circle about-us__item-circle--two">
+                            <i class="fa-solid fa-wallet"></i>
+                        </div>
+                        <p class="about-us__item-description">Konkurencyjne ceny</p>
+                    </div>
+                </a>
+
+                <a class="about-us__link" href="#show">
+                    <div class="about-us__item">
+                        <div class="about-us__item-circle">
+                            <i class="fa-solid fa-truck"></i>
+                        </div>
+                        <p class="about-us__item-description">Transport do klienta</p>
+                    </div>
+                </a>
+
+                <a class="about-us__link" href="#offer">
+                    <div class="about-us__item">
+                        <div class="about-us__item-circle about-us__item-circle--two">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                        <p class="about-us__item-description">Szeroka oferta produktów</p>
+                    </div>
+            </div>
             </a>
+            <i class="fa-solid fa-carrot decoration-icon decoration-icon__carrot"></i>
+            <i class="fa-solid fa-lemon decoration-icon decoration-icon__lemon"></i>
 
-            <a class="about-us__link" href="#offer">
-                <div class="about-us__item">
-                    <div class="about-us__item-circle about-us__item-circle--two">
-                        <i class="fa-solid fa-wallet"></i>
+        </section>
+    </div>
+    <div data-aos="fade-up" data-aos-offset="200">
+        <section class="decoration">
+            <p class="decoration__text">Możesz nam zaufać</p>
+        </section>
+    </div>
+
+    <div data-aos="fade-up" data-aos-offset="200">
+        <section class="offer section-padding" id="offer">
+            <h2 class="section-title">Oferta</h2>
+            <div class="underline"></div>
+
+            <p class="offer__p">Nasza hurtownia warzyw i owoców oferuje szeroki wybór świeżych i wysokiej jakości
+                produktów
+                spożywczych. Dostarczamy świeże warzywa i owoce, które są starannie wyselekcjonowane, aby zapewnić
+                naszym
+                klientom najlepszą jakość i smak.</p>
+
+            <div class="offer__products">
+
+                <div class="offer__product">
+                    <img src=" ./dist/img/apple.jpg" alt="Jabłka" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Jabłka</h3>
                     </div>
-                    <p class="about-us__item-description">Konkurencyjne ceny</p>
+                    </img>
                 </div>
-            </a>
 
-            <a class="about-us__link" href="#show">
-                <div class="about-us__item">
-                    <div class="about-us__item-circle">
-                        <i class="fa-solid fa-truck"></i>
+                <div class="offer__product">
+                    <img src=" ./dist/img/orange.jpg" alt="Pomarańcze" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Pomarańcze</h3>
                     </div>
-                    <p class="about-us__item-description">Transport do klienta</p>
+                    </img>
                 </div>
-            </a>
-
-            <a class="about-us__link" href="#offer">
-                <div class="about-us__item">
-                    <div class="about-us__item-circle about-us__item-circle--two">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                <div class="offer__product">
+                    <img src=" ./dist/img/potatoes.jpg" alt="Ziemniaki" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Ziemniaki</h3>
                     </div>
-                    <p class="about-us__item-description">Szeroka oferta produktów</p>
+                    </img>
                 </div>
-        </div>
-        </a>
-        <i class="fa-solid fa-carrot decoration-icon decoration-icon__carrot"></i>
-        <i class="fa-solid fa-lemon decoration-icon decoration-icon__lemon"></i>
-
-    </section>
-
-    <section class="decoration">
-        <p class="decoration__text">Możesz nam zaufać</p>
-    </section>
-
-    <section class="offer section-padding" id="offer">
-        <h2 class="section-title">Oferta</h2>
-        <div class="underline"></div>
-
-        <p class="offer__p">Nasza hurtownia warzyw i owoców oferuje szeroki wybór świeżych i wysokiej jakości produktów
-            spożywczych. Dostarczamy świeże warzywa i owoce, które są starannie wyselekcjonowane, aby zapewnić naszym
-            klientom najlepszą jakość i smak.</p>
-
-        <div class="offer__products">
-
-            <div class="offer__product">
-                <img src=" ./dist/img/apple.jpg" alt="Jabłka" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Jabłka</h3>
-                </div>
-                </img>
-            </div>
-
-            <div class="offer__product">
-                <img src=" ./dist/img/orange.jpg" alt="Pomarańcze" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Pomarańcze</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/potatoes.jpg" alt="Ziemniaki" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Ziemniaki</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/onions.jpg" alt="Cebule" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Cebule</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/beet.jpg" alt="Burak" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Buraki</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/carrot.jpg" alt="Marchewki" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Marchewki</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/lettuce.jpg" alt="Sałata" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Sałata</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/grape.jpg" alt="Winogrono" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Winogrono</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/corn.jpg" alt="Kukurydza" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Kukurydza</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/rucola.jpg" alt="Rukola" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Rukola</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/mushroom.jpg" alt="Pieczarki" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Pieczarki</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/strawberries.jpg" alt="Truskawki" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Truskawki</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/raspberries.jpg" alt="Maliny" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Maliny</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/watermelon.jpg" alt="Arbuzy" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Arbuzy</h3>
-                </div>
-                </img>
-            </div>
-            <div class="offer__product">
-                <img src=" ./dist/img/currant.jpg" alt="Porzeczki" class="offer__product-img">
-                <div class="offer__product-block">
-                    <h3 class="offer__product-description">Porzeczki</h3>
-                </div>
-                </img>
-            </div>
-
-        </div>
-        <p class="offer__comment">Przedstawiona oferta jest jedynie częścią naszych produktów. Po więcej informacji
-            prosimy przejść do sekcji <a href="#contact">kontakt</a></p>
-    </section>
-
-    <section class="show section-padding" id="show">
-        <h2 class="section-title">Jak pracujemy?</h2>
-        <div class="underline"></div>
-
-        <div class="show__container">
-
-            <div class="show__block">
-                <div class="show__block-image">
-                    <img src="./dist/img/quality.jpg" alt="Owoce podane na drewnianej podstawce">
-                </div>
-                <h3 class="show__block-h3">Jakość usług <i class="fa-solid fa-ranking-star"></i></h3>
-                <p class="show__block-text">Hurtownia warzyw i owoców Eco Fresh zapewnia niezwykle wysoką
-                    jakość swoich produktów.
-                    Ściśle przestrzegamy standardów higieny i bezpieczeństwa żywności. Każdy zakupiony przez was produkt
-                    jest świeży, soczysty i pełen naturalnego
-                    smaku.
-
-                    Nasze warzywa są zawsze pełne składników odżywczych, o intensywnych kolorach i idealnej dojrzałości.
-                </p>
-            </div>
-
-
-            <div class="show__block">
-                <div class="show__block-image">
-                    <img src="./dist/img/client.jpg" alt="Ludzie podający sobie rękę na spotkaniu">
-                </div>
-                <h3 class="show__block-h3">Relacja z klientami <i class="fa-solid fa-people-group"></i></h3>
-                <p class="show__block-text">Kluczowym elementem sukcesu każdej hurtowni warzyw i owoców jest utrzymanie
-                    dobrej relacji z klientem.
-                    Hurtownia powinna zapewniać klientom wyjątkowe doświadczenie zakupowe, które obejmuje zarówno wysoką
-                    jakość produktów, jak i doskonałą obsługę.
-                    Nasza firma oferuje przyjazne i profesjonalne podejście do obsługi klienta co jest fundamentem do
-                    budowania długotrwałych i owocnych relacji biznesowych.
-
-                </p>
-            </div>
-
-            <div class="show__block">
-                <div class="show__block-image">
-                    <img src="./dist/img/transport.jpg" alt="Kierowca prowadzący samochód">
-                </div>
-                <h3 class="show__block-h3">Szybkie dostawy <i class="fa-solid fa-truck-fast"></i></h3>
-                <p class="show__block-text">Hurtownia Eco Fresh posiada dobrze zorganizowany system logistyczny, który
-                    umożliwia skuteczne planowanie i realizację dostaw. Zamówione produkty są szybko pakowane i
-                    przygotowywane do wysyłki. Jako firma dbamy również o odpowiednie opakowania i warunki
-                    przechowywania podczas transportu, aby produkty utrzymały świeżość i wysoką jakość.
-                </p>
-            </div>
-
-
-        </div>
-        <i class="fa-solid fa-apple-whole decoration-icon decoration-icon__apple"></i>
-        <i class="fa-solid fa-pepper-hot decoration-icon decoration-icon__pepper"></i>
-    </section>
-
-
-    <section class="contact section-padding" id="contact">
-        <h2 class="section-title">Kontakt</h2>
-        <div class="underline"></div>
-
-        <div class="contact__container">
-            <div class="contact__map-container">
-                <iframe class="contact__map-map"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2529.806506736247!2d23.369819875875237!3d50.649284582406345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47235fa1a7dd295d%3A0x77a70668ddf08043!2sEco%20Fresh!5e0!3m2!1spl!2spl!4v1685116741753!5m2!1spl!2spl"
-                    style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="contact__info">
-
-                <div class="contact__item">
-                    <div class="contact__icon">
-                        <div class="contact__icon-icon"><i class="fa-solid fa-location-dot"></i></div>
-                        <p class="contact__icon-text">Adres:</p>
+                <div class="offer__product">
+                    <img src=" ./dist/img/onions.jpg" alt="Cebule" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Cebule</h3>
                     </div>
-                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> Osiedlowa 8, 22-437
-                            Łabunie</strong></p>
+                    </img>
+                </div>
+                <div class="offer__product">
+                    <img src=" ./dist/img/beet.jpg" alt="Burak" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Buraki</h3>
+                    </div>
+                    </img>
+                </div>
+                <div class="offer__product">
+                    <img src=" ./dist/img/carrot.jpg" alt="Marchewki" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Marchewki</h3>
+                    </div>
+                    </img>
+                </div>
+                <div class="offer__product">
+                    <img src=" ./dist/img/lettuce.jpg" alt="Sałata" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Sałata</h3>
+                    </div>
+                    </img>
+                </div>
+                <div class="offer__product">
+                    <img src=" ./dist/img/grape.jpg" alt="Winogrono" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Winogrono</h3>
+                    </div>
+                    </img>
+                </div>
+                <div class="offer__product">
+                    <img src=" ./dist/img/corn.jpg" alt="Kukurydza" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Kukurydza</h3>
+                    </div>
+                    </img>
+                </div>
+                <div class="offer__product">
+                    <img src=" ./dist/img/rucola.jpg" alt="Rukola" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Rukola</h3>
+                    </div>
+                    </img>
+                </div>
+                <div class="offer__product">
+                    <img src=" ./dist/img/mushroom.jpg" alt="Pieczarki" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Pieczarki</h3>
+                    </div>
+                    </img>
+                </div>
+                <div class="offer__product">
+                    <img src=" ./dist/img/strawberries.jpg" alt="Truskawki" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Truskawki</h3>
+                    </div>
+                    </img>
+                </div>
+                <div class="offer__product">
+                    <img src=" ./dist/img/raspberries.jpg" alt="Maliny" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Maliny</h3>
+                    </div>
+                    </img>
+                </div>
+                <div class="offer__product">
+                    <img src=" ./dist/img/watermelon.jpg" alt="Arbuzy" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Arbuzy</h3>
+                    </div>
+                    </img>
+                </div>
+                <div class="offer__product">
+                    <img src=" ./dist/img/currant.jpg" alt="Porzeczki" class="offer__product-img">
+                    <div class="offer__product-block">
+                        <h3 class="offer__product-description">Porzeczki</h3>
+                    </div>
+                    </img>
                 </div>
 
-                <div class="contact__item">
-                    <div class="contact__icon">
-                        <div class="contact__icon-icon"><i class="fa-regular fa-clock"></i></div>
-                        <p class="contact__icon-text">Godziny otwarcia:</p>
+            </div>
+            <p class="offer__comment">Przedstawiona oferta jest jedynie częścią naszych produktów. Po więcej informacji
+                prosimy przejść do sekcji <a href="#contact">kontakt</a></p>
+        </section>
+    </div>
+
+    <div data-aos="fade-up" data-aos-offset="200">
+        <section class="show section-padding" id="show">
+            <h2 class="section-title">Jak pracujemy?</h2>
+            <div class="underline"></div>
+
+            <div class="show__container">
+
+                <div class="show__block">
+                    <div class="show__block-image">
+                        <img src="./dist/img/quality.jpg" alt="Owoce podane na drewnianej podstawce">
                     </div>
-                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> Pon-Pt:
-                            5:00-16:00</strong></p>
-                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> Sob: 5:00-11:00</strong>
+                    <h3 class="show__block-h3">Jakość usług <i class="fa-solid fa-ranking-star"></i></h3>
+                    <p class="show__block-text">Hurtownia warzyw i owoców Eco Fresh zapewnia niezwykle wysoką
+                        jakość swoich produktów.
+                        Ściśle przestrzegamy standardów higieny i bezpieczeństwa żywności. Każdy zakupiony przez was
+                        produkt
+                        jest świeży, soczysty i pełen naturalnego
+                        smaku.
+
+                        Nasze warzywa są zawsze pełne składników odżywczych, o intensywnych kolorach i idealnej
+                        dojrzałości.
                     </p>
                 </div>
 
-                <div class="contact__item">
-                    <div class="contact__icon">
-                        <div class="contact__icon-icon"><i class="fa-solid fa-phone"></i></div>
-                        <p class="contact__icon-text">Telefon:</p>
+
+                <div class="show__block">
+                    <div class="show__block-image">
+                        <img src="./dist/img/client.jpg" alt="Ludzie podający sobie rękę na spotkaniu">
                     </div>
-                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> 84 651 49 80</strong></p>
-                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> 571 226 512</strong>
-                    </p>
-                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> 502 544 044</strong>
+                    <h3 class="show__block-h3">Relacja z klientami <i class="fa-solid fa-people-group"></i></h3>
+                    <p class="show__block-text">Kluczowym elementem sukcesu każdej hurtowni warzyw i owoców jest
+                        utrzymanie
+                        dobrej relacji z klientem.
+                        Hurtownia powinna zapewniać klientom wyjątkowe doświadczenie zakupowe, które obejmuje zarówno
+                        wysoką
+                        jakość produktów, jak i doskonałą obsługę.
+                        Nasza firma oferuje przyjazne i profesjonalne podejście do obsługi klienta co jest fundamentem
+                        do
+                        budowania długotrwałych i owocnych relacji biznesowych.
+
                     </p>
                 </div>
 
-                <div class="contact__item">
-                    <div class="contact__icon">
-                        <div class="contact__icon-icon"><i class="fa-solid fa-envelope"></i></div>
-                        <p class="contact__icon-text">Adres e-mail:</p>
+                <div class="show__block">
+                    <div class="show__block-image">
+                        <img src="./dist/img/transport.jpg" alt="Kierowca prowadzący samochód">
                     </div>
-                    <p class="contact__info-text"><i class="fa-solid fa-minus"></i><span>
-                            ecofreshspj@gmail.com</span></p>
-
+                    <h3 class="show__block-h3">Szybkie dostawy <i class="fa-solid fa-truck-fast"></i></h3>
+                    <p class="show__block-text">Hurtownia Eco Fresh posiada dobrze zorganizowany system logistyczny,
+                        który
+                        umożliwia skuteczne planowanie i realizację dostaw. Zamówione produkty są szybko pakowane i
+                        przygotowywane do wysyłki. Jako firma dbamy również o odpowiednie opakowania i warunki
+                        przechowywania podczas transportu, aby produkty utrzymały świeżość i wysoką jakość.
+                    </p>
                 </div>
+
 
             </div>
-        </div>
-    </section>
+            <i class="fa-solid fa-apple-whole decoration-icon decoration-icon__apple"></i>
+            <i class="fa-solid fa-pepper-hot decoration-icon decoration-icon__pepper"></i>
+        </section>
+    </div>
 
+    <div data-aos="fade-up" data-aos-offset="200">
+        <section class="contact section-padding" id="contact">
+            <h2 class="section-title">Kontakt</h2>
+            <div class="underline"></div>
+
+            <div class="contact__container">
+                <div class="contact__map-container">
+                    <iframe class="contact__map-map"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2529.806506736247!2d23.369819875875237!3d50.649284582406345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47235fa1a7dd295d%3A0x77a70668ddf08043!2sEco%20Fresh!5e0!3m2!1spl!2spl!4v1685116741753!5m2!1spl!2spl"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact__info">
+
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <div class="contact__icon-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <p class="contact__icon-text">Adres:</p>
+                        </div>
+                        <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> Osiedlowa 8, 22-437
+                                Łabunie</strong></p>
+                    </div>
+
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <div class="contact__icon-icon"><i class="fa-regular fa-clock"></i></div>
+                            <p class="contact__icon-text">Godziny otwarcia:</p>
+                        </div>
+                        <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> Pon-Pt:
+                                5:00-16:00</strong></p>
+                        <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> Sob: 5:00-11:00</strong>
+                        </p>
+                    </div>
+
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <div class="contact__icon-icon"><i class="fa-solid fa-phone"></i></div>
+                            <p class="contact__icon-text">Telefon:</p>
+                        </div>
+                        <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> 84 651 49 80</strong>
+                        </p>
+                        <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> 571 226 512</strong>
+                        </p>
+                        <p class="contact__info-text"><i class="fa-solid fa-minus"></i><strong> 502 544 044</strong>
+                        </p>
+                    </div>
+
+                    <div class="contact__item">
+                        <div class="contact__icon">
+                            <div class="contact__icon-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <p class="contact__icon-text">Adres e-mail:</p>
+                        </div>
+                        <p class="contact__info-text"><i class="fa-solid fa-minus"></i><span>
+                                ecofreshspj@gmail.com</span></p>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
 
 
 
@@ -350,6 +368,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./dist/js/main.min.js"></script>
 </body>
 
